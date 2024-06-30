@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yan54</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      function checkInput() {
+        var correctValue = "yan54{blqt4nt_j3_n3gr}"; // Set the correct value here
+        var inputValue = document.getElementById("myInput").value;
+        if(inputValue === correctValue) {
+          document.getElementById("secretMessage").style.display = "block";
+        } else {
+          document.getElementById("secretMessage").style.display = "none";
+        }
+      }
+      </script>
+</head>
+<body>
+    <h1>yan54's site</h1> <br><br><br>
+    <h2>about me</h2> <br>
+    <p>country.......................cz</p>
+    <p>distro......................arch</p>
+    <p>currently studying cybersecurity</p> <br>
+    <h2>links</h2>
+    <p>github..........................<a href="https://github.com/Ondraaasek">x</a> <br>
+    <p>discord.........................<a href="yan54__">x</a></p>
+    <p>my distro of choice.............<a href="https://archlinux.org">x</a></p>
+    <br>
+    <h2>to do</h2>
+    <p>get on a prestige school....[DONE]</p>
+    <p>finish the school...............[]</p>
+    <p>get on university...............[]</p>
+    <br>
+    <h2>screenshots [WIP]</h2>
+    <button onclick="revealContent()">click</button>
+    <div id="extraContent" class="hidden">
+
+   <p>dwm config</p>
+   <img src="images/dwm_config_laptop.png" alt="dwm_config_laptop" width="50%">
+  <p>Hyprland config</p>
+  <img src="images/hyprland-screenshot-laptop.png" alt="hyprland-screenshot-laptop" width="50%">
+  <p>i3wm / sway config</p>
+  <img src="images/i3-screenshot-laptop.png" alt="i3-screenshot-laptop" width="50%">
+  <p>KDE Plasma config (unmaintained)</p>
+  <p>XFCE4 config (unmaintained too)</p>
+</div>
+
+<script>
+function revealContent() {
+  var content = document.getElementById('extraContent');
+  if (content.classList.contains('hidden')) {
+    content.classList.remove('hidden');
+  } else {
