@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(32, 31, 36);
+    color: white;
+    font-family: 'monospace';
+    text-align: center;
+    line-height: 10px;
+}
+p {
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+}
+h1 {
+    font-size: 35px;
+    padding-top: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+link {
+    color: white;
+}
+a {
+    color: white;
+}
+::selection {
+    /*background-color: rgb(251, 31, 31);*/
+    /*color: #0f0;*/
+    color: rgb(251, 31, 31);
+}
+.hidden {
+    display: none;
+  }
+ button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+button:hover {
+    background-color: #555;
+  }
